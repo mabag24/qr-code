@@ -1,0 +1,51 @@
+* {
+	font-family: sans-serif;
+}
+
+#qr-grid {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(37, 1rem);
+	grid-template-rows: repeat(37, 1rem);
+}
+
+.black {
+	background-color: black;
+	color: black;
+}
+
+.white {
+	background-color: white;
+	color: white;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+	justify-content: center;
+}
+
+html {
+	background-color: rgb(88, 88, 88);
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#reset-btn {
+	justify-content: center;
+}
+
+kbd {
+	font-size: 1.75rem;
+	color: aquamarine;
+}
+
+#qr-image {
+	img {
+		max-width: 50rem;
+		max-height: 50rem;
+		filter: grayscale(1);
+		filter: contrast(1);
+	}
+}

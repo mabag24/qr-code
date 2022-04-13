@@ -1,0 +1,59 @@
+* {
+  font-family: sans-serif;
+}
+
+#qr-grid {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1rem)[37];
+      grid-template-columns: repeat(37, 1rem);
+  -ms-grid-rows: (1rem)[37];
+      grid-template-rows: repeat(37, 1rem);
+}
+
+.black {
+  background-color: black;
+  color: black;
+}
+
+.white {
+  background-color: white;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html {
+  background-color: #585858;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#reset-btn {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+kbd {
+  font-size: 1.75rem;
+  color: aquamarine;
+}
+
+#qr-image img {
+  max-width: 50rem;
+  max-height: 50rem;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  -webkit-filter: contrast(1);
+          filter: contrast(1);
+}
+/*# sourceMappingURL=main.css.map */
